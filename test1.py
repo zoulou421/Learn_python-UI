@@ -13,6 +13,7 @@ window = Tk()
 # We create a label (line of text) welcoming
 # Note: the first parameter passed to the Label constructor is our root interface
 field_label = Label(window, text="Welcome to FormationKilo !")
+field_label["text"]="Welcome to our compagny"
 
 # We display the label in the window
 field_label.pack()
